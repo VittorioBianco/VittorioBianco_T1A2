@@ -1,11 +1,67 @@
+* {
+  margin: 0;
+}
+
 .nav-header {
-  min-height: 10vh;
-  background-color: #bd0404;
+  height: 10vh;
+  background-color: #161b22;
+}
+
+.nav-header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-header nav a:hover {
+  color: rgba(185, 123, 8, 0.5);
 }
 
 .landing {
-  width: 90vh;
-  height: 100%;
-  background-color: blue;
+  width: 100%;
+  height: 90vh;
+  background-color: #0d1117;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
