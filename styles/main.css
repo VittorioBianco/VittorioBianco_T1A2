@@ -1,6 +1,6 @@
 .nav-header {
-  width: 10vh;
-  background-color: grey;
+  min-height: 10vh;
+  background-color: #bd0404;
 }
 
 .landing {
