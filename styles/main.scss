@@ -34,7 +34,7 @@ $secondary-color: #0d1117;
 
 .landing {
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     background-color: $secondary-color;
     display: flex;
     justify-content: center;
@@ -55,4 +55,18 @@ h2 {
 h3 {
     font-family: 'Oswald', sans-serif;
     color: white;
+}
+.main-image {
+    width: 100%;
+    height: 30vh;
+    background-color: $secondary-color;
+    @include flexCenter;
+    
+    img {
+        width: 500px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
 }
