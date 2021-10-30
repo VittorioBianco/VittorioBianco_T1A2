@@ -57,9 +57,7 @@ $container-color: rgba(13,17,23,1);
     img {
         height: 300px;
         width: 300px;
-    }
-        
-               
+    }   
     }
     
 .port-main {
@@ -70,10 +68,9 @@ $container-color: rgba(13,17,23,1);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80);
+    background-image: url(../img/backdrop.jpg);
     background-size: cover;
-    background-position: center;   
-                   
+    background-position: center;                     
     }
 
 .port-container {
@@ -97,6 +94,12 @@ ul li{
     color: white;
     list-style: none;
     padding: 10px 0 0 0;
+}
+.example-image {
+    height: 200px;
+}
+.example-image:hover {
+    height: 400px;
 }
 }
 
