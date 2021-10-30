@@ -12,25 +12,38 @@ $primary-color: #161b22;
 
 $secondary-color: #0d1117;
 
+$container-color: rgba(13,17,23,1);
+
 .nav-header {
     height: 10vh;
     background-color: $primary-color;
+    @include flexCenter(space-evenly);
+    .header-title {
+        padding-right: 20px
+    }
         
     nav {
-        @include flexCenter(space-between);
-        height: 100%;
-        font-family:  'Oswald', sans-serif;
+            margin-left: auto;
+            font-family:  'Oswald', sans-serif;
         }
     nav a  {
             text-decoration: none;
             font-weight: bold;
             color: white;
+            margin:10px;
+            transition: all 0.3s, ease, 0;
+            
         }
     nav a:hover {
                 color: rgba(236, 155, 3, 0.952)
-              }
-
+            }
+              
 }
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 .landing {
     width: 100%;
@@ -48,7 +61,44 @@ $secondary-color: #0d1117;
         
                
     }
+    
+.port-main {
+    width: 100%;
+    height: 90vh;
+    background-color: $container-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80);
+    background-size: cover;
+    background-position: center;   
+                   
+    }
 
+.port-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+background-color: $secondary-color;
+opacity: 0.8;
+padding: 20px;
+
+.container-text {
+opacity: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+ul li{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+}
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -61,6 +111,10 @@ h2 {
 }
 
 h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+p {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
