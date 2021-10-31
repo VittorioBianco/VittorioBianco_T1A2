@@ -1,0 +1,56 @@
+@mixin flexCenter($justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+$primary-color: #161b22;
+
+$secondary-color: #0d1117;
+
+$container-color: red;
+
+.nav-header {
+    height: 10vh;
+    background-color: $primary-color;
+    @include flexCenter(space-evenly);
+    .header-title {
+        padding-right: 20px
+    }
+        
+    nav {
+            margin-left: auto;
+            font-family:  'Oswald', sans-serif;
+        }
+    nav a  {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin:10px;
+            transition: all 0.3s, ease, 0;
+            
+        }
+    nav a:hover {
+                color: rgba(236, 155, 3, 0.952)
+            }
+              
+}
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.landing {
+    width: 100%;
+    height: 90vh;
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    }
+    
+
+
