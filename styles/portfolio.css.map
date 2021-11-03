@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "index.scss"
+        "portfolio.scss"
     ],
     "names": [],
-    "file": "index.css"
+    "file": "portfolio.css"
 }

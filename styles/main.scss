@@ -2,7 +2,209 @@
     margin: 0;
 }
 
+.text {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+$primary-color: #161b22;
+$secondary-color: #0d1117;
+$container-color: rgba(13,17,23,0.7);
+
 @import "portfolio";
 @import "index";
 @import "blog";
 @import "about";
+
+
+@mixin flexCenter($justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+
+}
+article {
+background-color: $container-color;  
+text-align: center;  
+
+}
+// index //
+
+.nav-header {
+    height:10vh;
+    background-color: $primary-color;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    @include flexCenter(space-evenly);
+    .header-title {
+        padding-right: 20px
+    }
+        
+    nav {
+            margin-left: auto;
+            font-family:  'Oswald', sans-serif;
+        }
+    nav a  {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin:10px;
+            transition: all 0.3s, ease, 0;
+            
+        }
+    nav a:hover {
+                color: rgba(236, 155, 3, 0.952)
+            }
+              
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer {
+      width: 100%;
+      height:10vh;
+      background-color: $secondary-color;
+      display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: row;
+        text-decoration: none;
+        font-family:  'Oswald', sans-serif;
+        columns: white;
+
+      .socials { 
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 50px;
+        
+            img {
+                max-height: 40px;
+                max-width: 40px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }              
+      }
+
+
+  }
+
+.landing {
+    width: 100%;
+    height: 80vh;
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/backdrop2.jpg);
+
+    }
+    
+// portfolio //
+.port-main {
+    width: 100%;
+    height: 90vh;
+    background-color: $container-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/backdrop.jpg);
+    background-size: cover;
+    background-position: center;                     
+
+    .box1 {
+        // background-color: blue; // visualise container//
+        height: 90vh;
+        width: 40vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+                                     
+        
+        .text-box {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $container-color;
+            
+        }
+
+     h2 {
+         text-align: center;
+         font-weight: bold;
+     }
+
+     h3 {
+        text-align: center;
+        font-weight: bold;
+    }
+            
+     
+    ul li {
+        color: black;
+        list-style: none;
+        text-align: center;
+        font-weight: bold;
+        }
+
+    p {
+        text-align: center;
+        margin: 60px;
+            
+        }
+}    
+
+    .box2 {
+        
+        max-height: 90vh;
+        max-width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            
+    .images {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $container-color;
+        max-height: 100%;
+        max-width: 100%;
+        
+                
+    }
+        
+     .example-image {
+        max-height: 100%;
+        max-width: 100%;
+        // background-color: GREEN;
+        margin: 1%;
+        }  
+        img {
+            height: 440px;
+            width: 440px;
+        }
+
+    .example-image:hover {
+            
+        transform:scale(1.3);
+        transition: .5s all ease;
+            
+    }
+    }
+}
