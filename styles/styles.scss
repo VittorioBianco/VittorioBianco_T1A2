@@ -170,3 +170,15 @@ body, html {
     background-image: url(../img/backdrop2.jpg);
 
     }
+
+    .about-landing {
+        width: 100%;
+        height: 80vh;
+        background-color: $secondary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(../img/backdrop2.jpg);
+    
+        }

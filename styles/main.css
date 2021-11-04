@@ -145,8 +145,8 @@
 }
 
 .port-main .box2 .example-image:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
   -webkit-transition: .5s all ease;
   transition: .5s all ease;
 }
@@ -333,6 +333,26 @@ body, html {
 }
 
 .landing {
+  width: 100%;
+  height: 80vh;
+  background-color: #0d1117;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../img/backdrop2.jpg);
+}
+
+.about-landing {
   width: 100%;
   height: 80vh;
   background-color: #0d1117;
