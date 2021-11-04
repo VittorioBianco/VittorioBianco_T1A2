@@ -2,8 +2,8 @@
     margin: 0;
 }
 @import "variables";
-@import "portfolio";
 @import "index";
+@import "portfolio";
 @import "blog";
 @import "about";
 
@@ -11,6 +11,7 @@
 .text {
     font-family: 'Oswald', sans-serif;
     color: white;
+    text-align: center;
 }
 
 
@@ -47,6 +48,24 @@
                 color: rgba(236, 155, 3, 0.952)
             }
               
+}
+@media screen and (max-width: 400px) {
+    .nav-header {
+        display: flex;
+        flex-direction: column;
+
+        nav {
+            margin-left: 0;
+        }
+
+        }
+    
+    
+
+    h1 {
+        font-size: large;
+        }
+    
 }
 
 
