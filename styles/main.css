@@ -74,15 +74,21 @@ article {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   text-decoration: none;
+  text-align: center;
   font-family: 'Oswald', sans-serif;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 
 .footer .socials {
@@ -258,6 +264,7 @@ article {
 .port-main .box2 img {
   height: 440px;
   width: 440px;
+  border-radius: 2%;
 }
 
 .port-main .box2 .example-image:hover {

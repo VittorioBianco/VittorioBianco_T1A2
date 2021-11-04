@@ -11,18 +11,18 @@ $primary-color: #161b22;
 $secondary-color: #0d1117;
 $container-color: rgba(13,17,23,0.7);
 
-@import "portfolio";
-@import "index";
-@import "blog";
-@import "about";
+// @import "portfolio"; //NOT IN USE YET//
+// @import "index";
+// @import "blog";
+// @import "about";
 
 
-@mixin flexCenter($justify) {
-    display: flex;
-    justify-content: $justify;
-    align-items: center;
+ @mixin flexCenter($justify) {  
+     display: flex;
+     justify-content: $justify;
+   align-items: center;
+ }
 
-}
 article {
 background-color: $container-color;  
 text-align: center;  
@@ -72,22 +72,28 @@ text-align: center;
       display: flex;
         align-content: center;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: row;
         text-decoration: none;
+        text-align: center;
         font-family:  'Oswald', sans-serif;
+        a {
+            color: white;
+            text-decoration: none;
+        }  
         
       .socials { 
-        // background-color: blue;
         width: 50px;
         height: 50px;
+        
         
             img {
                 height: 100%;
                 width: 100%;
                 text-align: center;
                 border-radius: 95%;
-            }              
+            }   
+                     
       }
 
 
@@ -108,9 +114,9 @@ text-align: center;
     .index-text {
         background-color: $container-color;
         display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
 // portfolio //
@@ -198,10 +204,12 @@ text-align: center;
         max-width: 100%;
         // background-color: GREEN;
         margin: 1%;
+        
         }  
         img {
             height: 440px;
             width: 440px;
+            border-radius: 2%;
         }
 
     .example-image:hover {

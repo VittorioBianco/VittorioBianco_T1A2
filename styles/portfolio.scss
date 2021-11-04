@@ -1,98 +1,99 @@
-// .port-main {
-//     width: 100%;
-//     height: 90vh;
-//     background-color: $container-color;
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: column;
-//     background-image: url(../img/backdrop.jpg);
-//     background-size: cover;
-//     background-position: center;                     
+.port-main {
+    width: 100%;
+    height: 90vh;
+    background-color: $container-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/backdrop.jpg);
+    background-size: cover;
+    background-position: center;                     
 
-//     .box1 {
-//         // background-color: blue; // visualise container//
-//         height: 90vh;
-//         width: 40vw;
-//         text-align: center;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-direction: column;
+    .box1 {
+        // background-color: blue; // visualise container//
+        height: 90vh;
+        width: 40vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
                                      
         
-//         .text-box {
-//         text-align: center;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-direction: column;
-//         background-color: $container-color;
+        .text-box {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $container-color;
             
-//         }
+        }
 
-//      h2 {
-//          text-align: center;
-//          font-weight: bold;
-//      }
+     h2 {
+         text-align: center;
+         font-weight: bold;
+     }
 
-//      h3 {
-//         text-align: center;
-//         font-weight: bold;
-//     }
+     h3 {
+        text-align: center;
+        font-weight: bold;
+    }
             
      
-//     ul li {
-//         color: black;
-//         list-style: none;
-//         text-align: center;
-//         font-weight: bold;
-//         }
+    ul li {
+        color: black;
+        list-style: none;
+        text-align: center;
+        font-weight: bold;
+        }
 
-//     p {
-//         text-align: center;
-//         margin: 60px;
+    p {
+        text-align: center;
+        margin: 60px;
             
-//         }
-// }    
+        }
+}    
 
-//     .box2 {
+    .box2 {
         
-//         max-height: 90vh;
-//         max-width: 40vw;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
+        max-height: 90vh;
+        max-width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
             
-//     .images {
-//         display: flex;
-//         flex-flow: row wrap;
-//         justify-content: space-around;
-//         align-items: center;
-//         background-color: $container-color;
-//         max-height: 100%;
-//         max-width: 100%;
+    .images {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $container-color;
+        max-height: 100%;
+        max-width: 100%;
         
                 
-//     }
+    }
         
-//      .example-image {
-//         max-height: 100%;
-//         max-width: 100%;
-//         // background-color: GREEN;
-//         margin: 1%;
-//         }  
-//         img {
-//             height: 440px;
-//             width: 440px;
-//         }
+     .example-image {
+        max-height: 100%;
+        max-width: 100%;
+        // background-color: GREEN;
+        margin: 1%;
+        }  
+        img {
+            height: 440px;
+            width: 440px;
+            border-radius: 95%;
+        }
 
-//     .example-image:hover {
+    .example-image:hover {
             
-//         transform:scale(1.3);
-//         transition: .5s all ease;
+        transform:scale(1.3);
+        transition: .5s all ease;
             
-//     }
-//     }
-// }
+    }
+    }
+}
