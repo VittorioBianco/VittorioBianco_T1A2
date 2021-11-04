@@ -64,13 +64,41 @@ body, html {
 
         }
     
-    
-
     h1 {
         font-size: large;
         }
     
+    
+    .text-box {
+        height: 100%;
+        font-size: small;
+        // overflow:scroll;
+    }
+
+    .port-main {
+        width: 100vw;
+        flex-wrap: initial;
+        overflow: scroll !important;
+    }
+
+    .box1 {
+        
+        width: 100% !important;
+    }
+
+    .box2 {
+        
+        width: 100vw !important;
+        flex-flow: column !important;
+    }
+    .example-image {
+        max-width:90% !important;
+        
+    }
+
+    
 }
+
 
 
 .site-header {
