@@ -1,3 +1,4 @@
+// portfolio //
 .port-main {
     width: 100%;
     height: 90vh;
@@ -12,8 +13,8 @@
     background-position: center;                     
 
     .box1 {
-        // background-color: blue; // visualise container//
-        height: 90vh;
+         background-color: blue; // visualise container//
+        height: 80vh;
         width: 40vw;
         text-align: center;
         display: flex;
@@ -58,36 +59,44 @@
 }    
 
     .box2 {
-        
-        max-height: 90vh;
-        max-width: 40vw;
+        background-color: red;
+        height: 80vh;
+        width: 40vw;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-flow: wrap row;
             
-    .images {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
-        background-color: $container-color;
-        max-height: 100%;
-        max-width: 100%;
+    // .images {
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: space-around;
+    //     align-items: center;
+    //     background-color: $container-color;
+    //     max-height: 50%;
+    //     max-width: 50%;
         
                 
-    }
+    // }
         
      .example-image {
-        max-height: 100%;
-        max-width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: $container-color;
+        max-height: 40%;
+        max-width: 40%;
         // background-color: GREEN;
         margin: 1%;
-        }  
+
         img {
-            height: 440px;
-            width: 440px;
-            border-radius: 95%;
+            max-width: 100%;
+            max-height: 100%;
         }
+        
+        }  
+    
 
     .example-image:hover {
             
