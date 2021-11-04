@@ -44,7 +44,7 @@
 }
 
 .port-main .box1 {
-  background-color: blue;
+  background-color: rgba(13, 17, 23, 0.7);
   height: 80vh;
   width: 40vw;
   text-align: center;
@@ -104,7 +104,7 @@
 }
 
 .port-main .box2 {
-  background-color: red;
+  background-color: rgba(13, 17, 23, 0.7);
   height: 80vh;
   width: 40vw;
   display: -webkit-box;
@@ -157,6 +157,10 @@
 article {
   background-color: rgba(13, 17, 23, 0.7);
   text-align: center;
+}
+
+body, html {
+  height: 100%;
 }
 
 .text {
@@ -261,11 +265,20 @@ article {
 .footer a {
   color: white;
   text-decoration: none;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .footer .socials {
   width: 50px;
   height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .footer .socials img {
