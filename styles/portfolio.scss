@@ -1,7 +1,7 @@
 // portfolio //
 .port-main {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     background-color: $container-color;
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@
     background-position: center;                     
 
     .box1 {
-         background-color: blue; // visualise container//
+         background-color: $container-color; // visualise container//
         height: 80vh;
         width: 40vw;
         text-align: center;
@@ -59,7 +59,7 @@
 }    
 
     .box2 {
-        background-color: red;
+        background-color: $container-color;
         height: 80vh;
         width: 40vw;
         display: flex;
