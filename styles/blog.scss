@@ -1,3 +1,7 @@
 .blog-container {
     background-color: $container-color;
+    a {
+    text-decoration: none;
+    margin: 10px;
+}
 }

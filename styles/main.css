@@ -155,6 +155,11 @@
   background-color: rgba(13, 17, 23, 0.7);
 }
 
+.blog-container a {
+  text-decoration: none;
+  margin: 10px;
+}
+
 article {
   background-color: rgba(13, 17, 23, 0.7);
   text-align: center;
