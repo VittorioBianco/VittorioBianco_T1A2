@@ -75,7 +75,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgba(13, 17, 23, 0.7);
 }
 
 .port-main .box1 h2 {
@@ -163,6 +162,8 @@
 article {
   background-color: rgba(13, 17, 23, 0.7);
   text-align: center;
+  max-width: 70vw;
+  margin: 5px;
 }
 
 * {
@@ -359,6 +360,7 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../img/backdrop2.jpg);
+  background-size: 100%;
 }
 
 .about-landing {
@@ -378,6 +380,28 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-image: url(../img/blogging.jpg);
+  background-size: 100%;
+}
+
+.blog-landing {
+  width: 100%;
+  height: 80vh;
+  background-color: #0d1117;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-image: url(../img/aboutme.jpg);
+  background-size: 100%;
 }
 /*# sourceMappingURL=main.css.map */

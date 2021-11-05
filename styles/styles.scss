@@ -168,6 +168,7 @@ body, html {
     align-items: center;
     flex-direction: column;
     background-image: url(../img/backdrop2.jpg);
+    background-size: 100%;
 
     }
 
@@ -179,6 +180,19 @@ body, html {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url(../img/aboutme.jpg);
+        background-image: url(../img/blogging.jpg);
+        background-size: 100%;
     
         }
+        .blog-landing {
+            width: 100%;
+            height: 80vh;
+            background-color: $secondary-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url(../img/aboutme.jpg);
+            background-size: 100%;
+        
+            }

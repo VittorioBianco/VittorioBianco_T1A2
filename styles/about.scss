@@ -2,5 +2,13 @@
 article {
     background-color: $container-color;  
     text-align: center;  
+    max-width: 70vw;
     
+    
+    }
+
+    @media screen and (max-width: 600px) {
+        article {
+        max-width: 100%;
+    }
     }
