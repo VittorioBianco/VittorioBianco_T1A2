@@ -163,7 +163,12 @@ article {
   background-color: rgba(13, 17, 23, 0.7);
   text-align: center;
   max-width: 70vw;
-  margin: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  article {
+    max-width: 100%;
+  }
 }
 
 * {
@@ -360,7 +365,8 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../img/backdrop2.jpg);
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .about-landing {
@@ -381,7 +387,8 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../img/blogging.jpg);
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .blog-landing {
@@ -402,6 +409,7 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../img/aboutme.jpg);
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 /*# sourceMappingURL=main.css.map */

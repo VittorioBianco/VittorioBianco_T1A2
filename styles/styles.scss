@@ -168,7 +168,8 @@ body, html {
     align-items: center;
     flex-direction: column;
     background-image: url(../img/backdrop2.jpg);
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
     }
 
@@ -181,7 +182,8 @@ body, html {
         align-items: center;
         flex-direction: column;
         background-image: url(../img/blogging.jpg);
-        background-size: 100%;
+        background-repeat: no-repeat;
+    background-size: 100% 100%;
     
         }
         .blog-landing {
@@ -193,6 +195,7 @@ body, html {
             align-items: center;
             flex-direction: column;
             background-image: url(../img/aboutme.jpg);
-            background-size: 100%;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
         
             }
