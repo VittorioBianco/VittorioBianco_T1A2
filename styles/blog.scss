@@ -1,7 +1,100 @@
-.blog-container {
+.blog-landing {
+    width: 100%;
+    height: 80%;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    overflow: hidden;
+    overflow:scroll;
     background-color: $container-color;
-    a {
+    background-color: steelblue;
+    background-image: url(../img/keyboard.jpg);
+    background-repeat: no-repeat no-repeat;
+     
+}
+* {
+    font-family:  'Oswald', sans-serif;
     text-decoration: none;
-    margin: 10px;
+    font-weight: bold;
+    color: steelblue;
+    text-align: center;
 }
-}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    .col {
+        background-color: rgba(255,255,255,0.12);
+        margin:0 15px 30px;
+        border-radius: 2%;
+    }
+    .col-50 {
+        width: 50%;
+        border-radius: 1%;
+    }
+    .col-10 {
+        width: 10%;
+    }
+    img {
+        max-width: 40%;
+        border-radius: 2%;
+        
+        }
+    h3 {
+        color: sandybrown;
+    }
+    p {
+        color: white;
+    }
+    }
+
+    @media screen and (max-width: 420px) {
+        
+        .columns {
+            flex-direction: column;
+            overflow: hidden;
+            overflow: scroll;
+        }
+        
+        .col-50 {
+            width: 100%;
+        }
+        .col-10 {
+            width: 50%;
+        }
+        }
+    
+
+
+
+
+
+  
+
+//   a {
+//     color: white;
+  // a {
+            // font-family:  'Oswald', sans-serif;
+            // text-decoration: none;
+            // font-weight: bold;
+            // color: rgb(16,153,215);
+            // text-align: center;
+            
+    // }
+    // a:hover {
+    //     font-family:  'Oswald', sans-serif;
+    //     text-decoration: none;
+    //     font-weight: bold;
+    //     color: rgba(236, 155, 3, 0.952);
+    //     text-align: center;
+  
+
+  
+    
+    
+   
+
+

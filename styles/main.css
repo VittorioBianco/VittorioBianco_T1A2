@@ -150,13 +150,89 @@
   transition: .5s all ease;
 }
 
-.blog-container {
+.blog-landing {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  overflow: hidden;
+  overflow: scroll;
   background-color: rgba(13, 17, 23, 0.7);
+  background-color: steelblue;
+  background-image: url(../img/keyboard.jpg);
+  background-repeat: no-repeat no-repeat;
 }
 
-.blog-container a {
+* {
+  font-family: 'Oswald', sans-serif;
   text-decoration: none;
-  margin: 10px;
+  font-weight: bold;
+  color: steelblue;
+  text-align: center;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.columns .col {
+  background-color: rgba(255, 255, 255, 0.12);
+  margin: 0 15px 30px;
+  border-radius: 2%;
+}
+
+.columns .col-50 {
+  width: 50%;
+  border-radius: 1%;
+}
+
+.columns .col-10 {
+  width: 10%;
+}
+
+.columns img {
+  max-width: 40%;
+  border-radius: 2%;
+}
+
+.columns h3 {
+  color: sandybrown;
+}
+
+.columns p {
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  .columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+    overflow: scroll;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  .col-10 {
+    width: 50%;
+  }
 }
 
 article {
@@ -168,6 +244,8 @@ article {
 @media screen and (max-width: 600px) {
   article {
     max-width: 100%;
+    overflow: hidden;
+    overflow: scroll;
   }
 }
 
@@ -213,7 +291,7 @@ body, html {
 .nav-header nav a {
   text-decoration: none;
   font-weight: bold;
-  color: white;
+  color: #1099d7;
   margin: 10px;
   -webkit-transition: all 0.3s, ease, 0;
   transition: all 0.3s, ease, 0;
@@ -365,8 +443,6 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../img/backdrop2.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 .about-landing {
@@ -387,29 +463,5 @@ body, html {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../img/blogging.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.blog-landing {
-  width: 100%;
-  height: 80vh;
-  background-color: #0d1117;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-image: url(../img/aboutme.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 /*# sourceMappingURL=main.css.map */
