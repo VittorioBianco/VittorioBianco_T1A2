@@ -2,15 +2,33 @@
     width: 100%;
     height: 80%;
     display:flex;
-    justify-content:center;
-    align-content: center;
-    overflow: hidden;
     overflow:scroll;
+    align-items: center;
     background-color: $container-color;
     background-color: steelblue;
     background-image: url(../img/keyboard.jpg);
     background-repeat: no-repeat no-repeat;
-     
+    .col {
+        
+        margin:0 15px 30px;
+        border-radius: 2%;
+        background-color: red;
+    }
+          
+    .col-501 {
+        width: 40%;
+        height: 40%;
+        border-radius: 1%;
+        background-color: bisque;    
+        }
+
+        .col-501 img {
+            width: 100%;
+            height: 100%;
+            border-radius: 1%; 
+        }
+    
+
 }
 * {
     font-family:  'Oswald', sans-serif;
@@ -20,68 +38,66 @@
     text-align: center;
 }
 
-.columns {
+.blogcontent {
     display: flex;
     flex-wrap: wrap;
-    
+    align-items:center;
+    width: 100%;
+    background-color: blue;
     
     .col {
-        background-color: rgba(255,255,255,0.12);
+        
         margin:0 15px 30px;
         border-radius: 2%;
+        background-color: red;
     }
-    .col-50 {
-        width: 50%;
-        border-radius: 1%;
-        
-    }
+          
+    
+    
+
     .col-20 {
-        width: 20%;
-        box-sizing: border-box;
-    }
-    img {
-        max-width: 40%;
-        border-radius: 2%;
-        
-        }
-    h3 {
-        color: sandybrown;
-    }
-    p {
-        color: white;
-    }
-    }
-
-    @media screen and (max-width: 600px) {
-        
-        
-        .columns {
-            overflow: hidden; 
-            overflow: scroll;
+            width: 25%;
+            height: 20%;
+            background-color: blueviolet;
             }
-            h3 {
-                text-align: center !important;
+        h3 {
+            color: sandybrown;
             }
-        .col-20 {
-            width: 100% !important;
-        }
-        .col-50 {
-            
-            width: 100% !important;
-            height: 40% !important;
-                       
-            
-        }
-        img {
-            height: 85%;
-            max-width: 100% !important;
-          }
-        }
+        p {
+            color: white;
+            }
 
-
-  
+    }
     
+
     
-   
 
+    @media screen and (max-width:800px) {
+        .blog-landing {
 
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+
+            .col-501 {
+                width: 100% !important;
+                height: 40% !important;  
+                }
+                .col-501 img{
+                    width: auto !important;
+                    height: 100% !important;  
+                    }
+    
+            
+            }
+            }
+            
+
+        
+        .blogcontent {
+            width: 100%;
+
+            .col-20 {
+            width: 100% !important;
+            }
+        }
