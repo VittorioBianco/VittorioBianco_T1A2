@@ -87,7 +87,6 @@
   width: 100%;
   height: 80%;
   display: flex;
-  overflow: scroll;
   align-items: center;
   background-color: rgba(13, 17, 23, 0.7);
   background-color: steelblue;
@@ -121,7 +120,6 @@
   border-radius: 1%;
 }
 .blogcontent .col-501 img {
-  width: 100%;
   height: 100%;
   border-radius: 3%;
   mix-blend-mode: lighten;
@@ -143,6 +141,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    overflow: scroll;
   }
   .blog-landing .blogcontent {
     max-height: 100% !important;
@@ -156,14 +155,10 @@
     width: auto !important;
     height: 100% !important;
   }
+  .blog-landing .col-20 {
+    width: 100%;
+  }
 }
-.blogcontent {
-  width: 100%;
-}
-.blogcontent .col-20 {
-  width: 100% !important;
-}
-
 article {
   background-color: rgba(13, 17, 23, 0.7);
   text-align: center;
