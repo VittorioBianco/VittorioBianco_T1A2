@@ -28,7 +28,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow-y: hidden;
 }
 .port-main .box1 .text-box {
   text-align: center;
@@ -53,7 +52,7 @@
 }
 .port-main .box1 p {
   text-align: center;
-  margin: 60px;
+  margin: 15px;
 }
 .port-main .box2 {
   background-color: rgba(13, 17, 23, 0.7);
